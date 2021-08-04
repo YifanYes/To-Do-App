@@ -1,13 +1,45 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-color: #be9ddf;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    height: 100vh;
+    margin-top: 3rem;
+    width: 40rem;
+    font-size: 150%;
+}
 
-*/
+.title{
+    font-size: 200%;
+    background-color: #8edeeb;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    justify-content: space-between;
+}
+
+p{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.weather {
+    width: 150px;
+    height: 115px;
+}
+
+.input {
+    margin: inherit;
+    margin-bottom: 2rem;
+}
+
+.list {
+    list-style-type:none;
+    padding-left: 0;
+}
+
+
+i{
+    float: right;
+}
